@@ -1,0 +1,229 @@
+@import '_variables.scss';
+
+.navbar{
+    height: 80px;
+    
+}
+
+.navbar--fixed{
+    position: fixed !important;
+    width:100vw;
+    z-index:99;
+    transition: opacity .35s, visibility .25s, height .32s;
+}
+
+.navbar__brand{
+    margin-left: 2vw;
+}
+
+.navbar__logo{
+    width:25%;
+    height:25%;
+    animation: none;
+}
+
+.navbar__logo:hover{
+    filter: invert(43%) sepia(79%) saturate(4055%) hue-rotate(360deg) brightness(81%) contrast(100%);
+    cursor: pointer;
+}
+
+.navbar__list{
+    margin-bottom: 0px;
+}
+
+.navbar__item{
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 36px;
+    color: $color_white;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.navbar__item--last{
+    border-right: none;
+    margin-right: 1.2vw;
+}
+
+.navbar__burger{
+    display: none;
+}
+
+.navbar__link{
+    color: $color_white;
+}
+
+.navbar__link:visited{
+    color: $color_white;
+}
+
+a.navbar__link:hover{
+    text-decoration: none;
+    color:$color_orange;
+  
+}
+
+.navbar__link:hover::after{
+    width: 100%;
+    background: $color_orange;
+}
+
+.navbar__link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $color_orange;
+    transition: width .3s;
+}
+
+.navbar--fixed.scrolled {
+    background-color: $color_soft_black;
+    border-bottom: 1px solid rgba(92, 91, 91, 0.171);
+    transition: opacity .35s, visibility .35s, height .32s;
+  }
+
+@media (max-width: 992px){ 
+    .navbar{
+        transition: opacity .35s, visibility .35s, height .32s;
+    }
+
+    .navbar__item{
+        display:none;   
+    }
+
+    .navbar__item--last{
+        margin-right:0px;
+    }
+
+    .navbar__burger{
+        position: fixed;
+        right:10px;
+        top: 15px;
+        width:65px;
+        display: inline-block;
+        cursor: pointer;
+        z-index:100;
+    }
+
+    .navbar__burger:hover{
+        opacity:0.7;
+    }
+
+    .navbar__burger-top {
+        background-color: $color_white;
+        height: 3px;
+        width: 70%;
+        display:block;
+        margin-top:5px;
+    }
+
+    .navbar__burger-middle {
+        @extend .navbar__burger-top;
+        background-color: $color_white;
+        margin-top:13px;
+    }
+
+    .navbar__burger-bottom {
+        @extend .navbar__burger-top;
+        background-color: $color_white;
+        margin-top:13px;
+    }
+
+    .navbar__burger-top--transform{
+        transform: translateY(10px) translateX(0) rotate(45deg);
+        transition: .25s;
+        transition-delay: 0.15s;
+    }
+
+    .navbar__burger-middle--transform{
+        opacity: 0;
+        
+    }
+
+    .navbar__burger-bottom--transform{
+        transform: translateY(-21px) translateX(0) rotate(-45deg);
+        transition: .25s;
+        transition-delay: 0.15s;
+    }
+
+    .navbar--mobile-transform{
+        animation: bounce-in-top 1.2s linear both;
+        height:100vh;
+        width:100%;
+        background-color: $color_soft_black;
+    }
+
+    .navbar__logo--mobile-transform{
+        display:none;
+    }
+
+    .navbar__list--mobile-transform{
+        height: 100vh;
+        width:100vw;
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 0px !important;
+    }
+
+    .navbar__item--mobile-transform{
+        display: list-item;
+        border:none;
+        list-style: none;
+        font-size: 2.5rem;
+        margin-bottom: auto;
+        padding-bottom:15vh;
+
+    }
+
+    .navbar__item--first{
+         margin-top:21vh;
+    }
+
+    .navbar__link::after{
+        width: 0px;
+        height: 0px;
+        background: none;
+        transition: none;
+    }
+
+    @keyframes bounce-in-top {
+        0% {
+          transform: translateY(-800px);
+          animation-timing-function: ease-in;
+          opacity: 0;
+        }
+        38% {
+          transform: translateY(0);
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+        55% {
+          transform: translateY(-65px);
+          animation-timing-function: ease-in;
+        }
+        72% {
+          transform: translateY(0);
+          animation-timing-function: ease-out;
+        }
+        81% {
+          transform: translateY(-28px);
+          animation-timing-function: ease-in;
+        }
+        90% {
+          transform: translateY(0);
+          animation-timing-function: ease-out;
+        }
+        95% {
+          transform: translateY(-8px);
+          animation-timing-function: ease-in;
+        }
+        100% {
+          transform: translateY(0);
+          animation-timing-function: ease-out;
+        }
+      }
+      
+   
+}

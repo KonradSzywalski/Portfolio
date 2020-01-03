@@ -1,0 +1,64 @@
+@import '_variables.scss';
+
+.contact-wrapper{
+    background-color: $color_white;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#contact-wrapper__anchor{
+    position: relative;
+    top: -104px;
+    visibility: hidden;
+}
+
+.contact-wrapper__content-container{
+    margin-top:15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.contact-wrapper__icons{
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+.contact-wrapper__informations-container{
+    text-align: left;
+}
+
+.contact-wrapper__informations-text{
+    margin-top:-30px;
+    margin-left:50px;
+}
+
+.contact-wrapper__text-container{
+    display : flex;
+    align-items : center;
+    text-align: justify;
+}
+
+.contact-wrapper__icon-mark{
+  margin-top:10px;  
+  margin-left:3px;
+}
+
+@media (max-width: 768px){ 
+    .contact-wrapper__informations-container{
+        text-align: center;
+    }
+
+    .contact-wrapper__informations-text{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .contact-wrapper__informations-text--break{
+        display: block;  
+    }
+
+    .contact-wrapper__icon-mark{
+        margin-top:0px;  
+        margin-left:0px;
+      }
+}

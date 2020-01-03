@@ -1,0 +1,83 @@
+@import '_variables.scss';
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+    margin: 0 auto; 
+} 
+
+.section-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: $color_soft_black;
+    line-height: 35px;
+}
+
+.section-header-additional{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top:-13px;
+    color: $color_orange;
+    line-height: 35px;
+}
+
+.html-color{
+    color: rgb(255, 115, 0);
+}
+
+.css-color{
+    color: rgb(6, 82, 180);
+}
+
+.sass-color{
+    color: rgb(201, 99, 197);
+}
+
+.bootstrap-color{
+    color: rgb(95, 62, 126);
+}
+
+.javascript-color{
+    color: rgb(206, 162, 17);
+}
+
+.react-color{
+    color: rgb(34, 171, 180);
+}
+
+.photoshop-color{
+    color: rgb(201, 36, 36);
+}
+
+.live-icon{
+    padding-right:15%;
+    padding-left:15%;
+}
+
+.live-icon:hover{
+    color: $color_orange;    
+    cursor: pointer;  
+}
+
+.github-icon{
+    padding-right:15%;
+    padding-left:15%;
+}
+
+.github-icon:hover{
+    color: $color_orange;
+    cursor: pointer;  
+}
+
+.github-icon--inactive:hover{
+    color: $color_gray;
+}
+
+.live-icon--inactive:hover{
+    color: $color_gray;
+}
+
+@import '_about.scss', '_contact.scss','_footer.scss','_header.scss','_landing.scss','_projects.scss';

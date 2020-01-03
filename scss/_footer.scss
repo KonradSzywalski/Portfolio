@@ -1,0 +1,58 @@
+@import '_variables.scss';
+
+.footer-wrapper{
+    margin-top:40px;
+    background-color: $color_soft_black;
+  
+}
+
+.footer-wrapper__content-container{
+    height:80px;
+    color: $color_white;
+}
+
+.footer-wrapper__copyrights-container{
+   padding-top:25px;
+}
+
+.footer-wrapper__socials-container{
+    text-align: right;
+    padding-top:20px;
+}
+
+.footer-wrapper__facebook-icon:hover{
+    color:$color_orange;   
+    cursor: pointer;  
+}
+
+.footer-wrapper__linkedin-icon:hover{
+    color:$color_orange;   
+    cursor: pointer;  
+}
+
+.footer-wrapper__github-icon:hover{
+    color:$color_orange;   
+    cursor: pointer;  
+}
+
+.footer-wrapper__link{
+    color:white;
+}
+
+
+@media (max-width: 768px)
+{
+    .footer-wrapper__content-container{
+        height: auto;
+    }
+
+    .footer-wrapper__socials-container{
+        text-align: center;
+        padding-bottom:30px;
+    }
+
+    .footer-wrapper__copyrights-container{ 
+        text-align: center;
+    }
+
+}

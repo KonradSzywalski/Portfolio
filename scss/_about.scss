@@ -1,0 +1,42 @@
+@import '_variables.scss';
+
+.about-me-wrapper{
+    padding-top:25px;
+    text-align: center;
+}
+
+#about-me-wrapper__anchor{
+    position: relative;
+    top:-104px;
+    visibility: hidden;
+}
+
+.about-me-wrapper__content-container{
+    margin-top:10px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+
+.about-me-wrapper__text-container{
+    font-size: 15px;
+    color: $color_soft_black;
+    text-align: justify;
+    margin: auto;
+    padding-bottom:20px;
+}
+
+.about-me-wrapper__icons-container{
+    margin: auto;
+}
+
+.about-me-wrapper__icons{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.about-me-wrapper__icons-description{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: $color_soft_black;
+}
