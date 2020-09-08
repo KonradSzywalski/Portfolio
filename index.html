@@ -10,8 +10,9 @@
 
     <meta charset="utf-8">
     <meta name="description" content="Konrad Szywalski - Portfolio - Computer Science student and Frontend Developer. Check out what I can do for you!">
-    <meta name="keywords" content="Konrad Szywalski, Szywalski, portfolio, frontend, junior frontend, junior front-end, frontend developer, front-end, kraków, cracow">
+    <meta name="keywords" content="Konrad Szywalski, Szywalski, portfolio, frontend, junior frontend, junior front-end, frontend developer, front-end, strony, strony internetowe, www, web, website, kraków, cracow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="ls7Tt1CexPpyGVeG1VYUAuaNobYiY9UiM648quwElRA" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -19,7 +20,7 @@
 
   </head>
 
-  <body>
+  <body onselectstart="return false" onselect="return false" oncopy="return false">
 
     <header>
       <nav class="navbar navbar--fixed">
@@ -63,10 +64,10 @@
           <div class="about-me-wrapper__text-container container col-md-6 order-md-2">
             <div class="row">
               <div class ="col" data-aos="fade-left"  data-aos-duration="1250">
-                Hi, my name is Konrad. I live Cracow and I handle with creating web applications. 
-                I graduated from Pedagogical University of Cracow with a first degree diploma in Computer Science and at this moment 
-                I continue my education at the same university and direction in extramural mode with the intention of obtaining a master of engineering degree. 
-                In my work, I try to take care of the smallest details and high quality so that the final results are as satisfying as possible. The technologies, tools and methodologies 
+                Hi, my name is Konrad. I live in Cracow and I handle with creating web applications. 
+                I graduated from Pedagogical University of Cracow with a first degree diploma in Computer Science and currently 
+                I'm continuing my education at the same university and direction in extramural mode with the intention of obtaining a master of engineering degree. 
+                In my work, I try to care about the details and put effort into maintaining a high quality of final results. The technologies, tools and methodologies 
                 I mainly use include: HTML, CSS, SASS, BEM, Bootstrap, JavaScript, jQuery, AOS, Font Awesome and Adobe Photoshop. I also had the pleasure to create applications using: PHP, Python and SQL databases. 
                 I'm currently focused on learning React.js. I'm open to adapt to new technologies. In the section below you can see my sample projects.
               </div>
@@ -119,12 +120,13 @@
                           The assumption of this project was to create a fully responsive website leading to the ranking of schools and universities. 
                           The site has, among others, the following functionalities: 
                           login and registration panel, detailed and general search, pagination, the ability to add comments and ratings, 
-                          tracking selected schools, separate subpages for users and administrators. 
-                          Passwords in the database are hashed by PHP functions and protected by Google reCAPTCHA tool and PHP htmlentities functions. <br><br>Test account details - login: max@max.pl, password: Qwerty123456</p>
+                          tracking selected schools, separate subpages for users and administrators (CMS). 
+                          Passwords in the database are hashed by PHP functions and protected by Google reCAPTCHA tool and PHP htmlentities functions. 
+                          <p class="projects-wrapper__pull-out-login-data">Test account details:<br class="projects-wrapper__pull-out-breakline-add"/> Login: max@max.pl,<br class="projects-wrapper__pull-out-breakline-add"/>  password: Qwerty123456</p>
                       </div>
                       <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
-                          <a class="project-link" href="http://school-ranking.konrad-szywalski.pl"><i class="fas fa-globe-africa fa-3x live-icon live-icon--odd"></i></a>
-                          <i class="fab fa-github fa-3x github-icon github-icon--odd github-icon--inactive"></i>
+                          <a class="project-link" href="https://school-ranking.konrad-szywalski.pl" title="Go Live!"><i class="fas fa-globe-africa fa-3x live-icon live-icon--odd"></i></a>
+                          <i class="fab fa-github fa-3x github-icon github-icon--odd github-icon--inactive"  title="Available soon!"></i>
                       </div>
                     </div>
 
@@ -140,8 +142,8 @@
           <div class= "row">
 
               <div class="col-12 projects-wrapper__inside-container">
-                <i class="fas fas fa-brain fa-2x projects-wrapper__inside-app-logo"></i>  
-                <p class="projects-wrapper__inside-text">MEMORY GAME</p>
+                <i class="fas fa-headphones fa-2x projects-wrapper__inside-app-logo"></i> 
+                <p class="projects-wrapper__inside-text">MUSIC SITE</p>
                 <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-2" id="projects-wrapper__inside-show-button-project-2" ></i>
                 <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-2" id="projects-wrapper__inside-hide-button-project-2" ></i>
               </div>
@@ -151,21 +153,26 @@
 
                     <div class="col-md-7 col-lg-8 order-md-2 container">
                       <div class ="col-md-12 projects-wrapper__pull-out-text-container">
-                        <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, JavaScript, FontAwesome, Adobe Photoshop</i>     
-                        <p class="projects-wrapper__pull-out-text-description">
-                          The Memory Game project is an electronic implementation of the world-famous game. During the creation of this project, 
-                          I expanded my knowledge of JavaScript, including work and processing of arrays, and DOM manipulation methods. 
-                          The game allows you to choose one of three prepared sets of images, while the duration of one game is a maximum of 35 seconds. 
-                          The application is designed for stationary and mobile devices.</p>
+                        <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, BEM, JavaScript, Adobe Photoshop</i>    
+                        <p class="projects-wrapper__pull-out-text-description"></p>
+                        This project involves creating a modern music site landing page. 
+                        The project is an edition of a website that I prepared as part of a recruitment task for ADream company. 
+                        The page was basically cut from the Adobe PhotoShop template, and then the page was modified by me. While building this project, 
+                        I practiced the techniques of creating responsive websites without any css libraries and using only Vanilla JS. 
+
+
+                        This project involves creating a modern music site. While building this project, I practiced the techniques of creating responsive websites. 
+                        
+                        A lot of weight was also put on improving skills in animations.  
                       </div>
                       <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
-                          <a class="project-link" href="http://memory-game.konrad-szywalski.pl"><i class="fas fa-globe-africa fa-3x live-icon"></i></a>
-                          <i class="fab fa-github fa-3x github-icon"></i>
+                        <a class="project-link" href="https://music-site.konrad-szywalski.pl" title="Go Live!"><i class="fas fa-globe-africa fa-3x live-icon"></i></a>
+                        <a class="project-link" href="https://github.com/KonradSzywalski/MusicSite" title="Go GitHub!"><i class="fab fa-github fa-3x github-icon"></i></a>
                       </div>
                     </div>
 
                     <div class="col-md-5 col-lg-4 order-md-1  projects-wrapper__img-inside-wrapper">
-                      <img class="projects-wrapper__phone-img-project-2" src="images/memory_game_phone.png">
+                      <img class="projects-wrapper__phone-img-project-2 " src="images/music_site_phone.png">
                     </div>
                   </div>
               </div>
@@ -176,8 +183,8 @@
           <div class= "row" >
 
               <div class="col-12 projects-wrapper__inside-container">
-                <i class="fas fa-smile-wink fa-2x projects-wrapper__inside-app-logo"></i>  
-                <p class="projects-wrapper__inside-text">PORTFOLIO</p>
+                <i class="fas fas fa-brain fa-2x projects-wrapper__inside-app-logo"></i>  
+                <p class="projects-wrapper__inside-text">MEMORY GAME</p>
                 <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-3" id="projects-wrapper__inside-show-button-project-3" ></i>
                 <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-3" id="projects-wrapper__inside-hide-button-project-3" ></i>
               </div>
@@ -187,21 +194,21 @@
 
                     <div class="col-md-7 col-lg-8 container">
                       <div class ="col-md-12 projects-wrapper__pull-out-text-container">
-                        <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, BEM, Bootstrap, JavaScript, jQuery, AOS, FontAwesome, Adobe Photoshop</i>     
+                        <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, JavaScript, FontAwesome, Adobe Photoshop</i>       
                         <p class="projects-wrapper__pull-out-text-description">
-                          My portfolio project is modern website template that scales in accordance with all resolution standards. 
-                          During building this project I have improved my understanding of building RWD websites, working with Bootstrap, CSS preprocessor SASS, JavaScript and JQuery. 
-                          I also broadened my knowledge about the use of JavaScript animation libraries (AOS) and using scalable vector icons (FontAwsome). 
-                          The site was created in accordance with the BEM methodology.</p>
+                          The Memory Game project is an electronic implementation of the world-famous game. During the creation of this project, 
+                          I expanded my knowledge of JavaScript, including work and processing of arrays, and DOM manipulation methods. 
+                          The game allows you to choose one of three prepared sets of images, while the duration of one game is a maximum of 35 seconds. 
+                          The application is designed for stationary and mobile devices.</p>
                       </div>
                       <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
-                          <a class="project-link" href="http://konrad-szywalski.pl"><i class="fas fa-globe-africa fa-3x live-icon live-icon--odd"></i></a>
-                          <i class="fab fa-github fa-3x github-icon github-icon--odd"></i>
+                        <a class="project-link" href="https://memory-game.konrad-szywalski.pl" title="Go Live!"><i class="fas fa-globe-africa fa-3x live-icon live-icon--odd"></i></a>
+                        <a class="project-link" href="https://github.com/KonradSzywalski/MemoryGame" title="Go GitHub!"><i class="fab fa-github fa-3x github-icon github-icon--odd"></i></a>
                       </div>
                     </div>
 
                     <div class="col-md-5 col-lg-4 projects-wrapper__img-inside-wrapper">
-                      <img class="projects-wrapper__phone-img-project-3" src="images/portfolio_phone.png">
+                      <img class="projects-wrapper__phone-img-project-3" src="images/memory_game_phone.png">
                     </div>
                   </div>
               </div>
@@ -212,8 +219,8 @@
         <div class= "row">
 
             <div class="col-12 projects-wrapper__inside-container">
-              <i class="fas fa-coins fa-2x projects-wrapper__inside-app-logo"></i>  
-              <p class="projects-wrapper__inside-text">CRYPTO CASH CALC</p>
+              <i class="fas fa-smile-wink fa-2x projects-wrapper__inside-app-logo"></i>  
+              <p class="projects-wrapper__inside-text">PORTFOLIO</p>
               <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-4" id="projects-wrapper__inside-show-button-project-4" ></i>
               <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-4" id="projects-wrapper__inside-hide-button-project-4" ></i>
             </div>
@@ -223,60 +230,221 @@
 
                   <div class="col-md-7 col-lg-8 order-md-2 container">
                     <div class ="col-md-12 projects-wrapper__pull-out-text-container">
-                      <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, Bootstrap, React.js, FontAwesome, Adobe Photoshop</i>     
+                      <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, BEM, Bootstrap, JavaScript, jQuery, AOS, FontAwesome, Adobe Photoshop</i>  
                       <p class="projects-wrapper__pull-out-text-description">
-			<i>Available soon. Work in progress.</i><br><br>
-                        The purpose of this project is to take the first steps in the React.js environment. 
-                        The application assumes the creation of a cryptocurrency calculator that retrieves data from an external API and subpage with current 
-                        exchange rates. Everything is supported by the react router and the page layout is adapted for different types of devices.
-                        </p>
+                        My portfolio project is modern website template that scales in accordance with all resolution standards. 
+                        During building this project I have improved my understanding of building RWD websites, working with Bootstrap, CSS preprocessor SASS, JavaScript and JQuery. 
+                        I also broadened my knowledge about the use of JavaScript animation libraries (AOS) and using scalable vector icons (FontAwsome). 
+                        The site was created in accordance with the BEM methodology.</p>
+                      </p>
                     </div>
                     <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
-                        <i class="fas fa-globe-africa fa-3x live-icon live-icon--inactive"></i>
-                        <i class="fab fa-github fa-3x github-icon github-icon--inactive"></i>
+                      <a class="project-link" href="https://konrad-szywalski.pl" title="Go Live!"><i class="fas fa-globe-africa fa-3x live-icon live-icon"></i></a>
+                      <a class="project-link" href="https://github.com/KonradSzywalski/Portfolio" title="Go GitHub!"><i class="fab fa-github fa-3x github-icon github-icon"></i></a>
                     </div>
                   </div>
 
                   <div class="col-md-5 col-lg-4 order-md-1 projects-wrapper__img-inside-wrapper">
-                    <img class="projects-wrapper__phone-img-project-4 " src="images/work_in_progress_phone.png">
+                    <img class="projects-wrapper__phone-img-project-4" src="images/portfolio_phone.png">
                   </div>
                 </div>
             </div>
         </div>  
 
-      <!-- PROJECT 5 -->
+        <!-- PROJECT 5 -->
+
+        <div class= "row">
+
+          <div class="col-12 projects-wrapper__inside-container" >
+            <i class="fas fa-shield-alt fa-2x projects-wrapper__inside-app-logo"></i>  
+            <p class="projects-wrapper__inside-text">RPG GAME</p>
+            <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-5" id="projects-wrapper__inside-show-button-project-5" ></i>
+            <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-5" id="projects-wrapper__inside-hide-button-project-5" ></i>
+          </div>
+
+          <div class="col-12 projects-wrapper__pull-out-container-project-5 container">
+              <div class ="row">
+
+                <div class="col-md-7 col-lg-8 container">
+                  <div class ="col-md-12 projects-wrapper__pull-out-text-container">
+                    <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> Pyhton, Pygame library, Adobe Photoshop, REAPER</i>     
+                    <p class="projects-wrapper__pull-out-text-description">
+                      The RPG game project was one of the topics that could be chosen as part of completing the programming classes at the university. 
+                      As a fierce player, I immediately knew that it would be a very interesting topic to be implemented. 
+                      The project was realized in Python with the use of object oriented programming and with the help of the Pygame library. 
+                      Models of characters, surroundings and sound were taken from websites that provide them under an open license, 
+                      and then edited by me using graphic (Adobe Photoshop) and music (REAPER) editors. During the implementation of the project, 
+                      I had to show my ingenuity, the ability to navigate in a new environment such as Pygame, and to use documentation and third parties to find the solutions I needed.
+                    </p>
+                 
+                    </p>
+                  </div>
+                  <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
+                      <i class="fas fa-globe-africa fa-3x live-icon live-icon--odd live-icon--inactive" title="Available soon!"></i>
+                      <a class="project-link" href="https://github.com/KonradSzywalski/RPG-Game" title="Go GitHub!"><i class="fab fa-github fa-3x github-icon github-icon--odd"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-md-5 col-lg-4 projects-wrapper__img-inside-wrapper">
+                  <img class="projects-wrapper__phone-img-project-5 " src="images/rpg_game_gallery.png">
+                </div>
+              </div>
+          </div>
+      </div> 
+
+          <!-- PROJECT 6 -->
+
+          <div class= "row">
+
+            <div class="col-12 projects-wrapper__inside-container">
+              <i class="fas fa-map-signs fa-2x projects-wrapper__inside-app-logo"></i>  
+              <p class="projects-wrapper__inside-text">EXIF CATALOGER</p>
+              <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-6" id="projects-wrapper__inside-show-button-project-6" ></i>
+              <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-6" id="projects-wrapper__inside-hide-button-project-6" ></i>
+            </div>
+
+            <div class="col-12 projects-wrapper__pull-out-container-project-6 container">
+                <div class ="row" >
+
+                  <div class="col-md-7 col-lg-8 order-md-2 container">
+                    <div class ="col-md-12 projects-wrapper__pull-out-text-container">
+                      <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> Python, Google Map Geolocation API, cx_Freeze library</i>  
+                      <p class="projects-wrapper__pull-out-text-description">
+                        EXIF Cataloger is a project made with Python and Google Map Geolocation API. The program loads all 
+                        photos from the given folder, and then if the photo has location tags (EXIF), it determines the place 
+                        where the photo was taken using the Google Map API. All photos are copied to the new folder with the changed name, including the name of 
+                        the country and city from which the photo is taken. 
+                        The program requires its own generated API key and the billing function to be enabled.
+                        The project was also generated to the .exe version using the cx_Freeze library.</p>
+                      </p>
+                    </div>
+                    <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
+                      <i class="fas fa-globe-africa fa-3x live-icon live-icon--inactive" title="Available soon!"></i>
+                      <a class="project-link" href="https://github.com/KonradSzywalski/EXIF-Cataloger" title="Go GitHub!"><i class="fab fa-github fa-3x github-icon"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-5 col-lg-4 order-md-1 projects-wrapper__img-inside-wrapper">
+                    <img class="projects-wrapper__phone-img-project-6" src="images/exif_cataloger_gallery.png">
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- PROJECT 7 -->
+
+        <div class= "row">
+
+          <div class="col-12 projects-wrapper__inside-container" >
+            <i class="fas fa-search-dollar fa-2x projects-wrapper__inside-app-logo"></i>  
+            <p class="projects-wrapper__inside-text">MONEY COUNTER</p>
+            <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-7" id="projects-wrapper__inside-show-button-project-7" ></i>
+            <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-7" id="projects-wrapper__inside-hide-button-project-7" ></i>
+          </div>
+
+          <div class="col-12 projects-wrapper__pull-out-container-project-7 container">
+              <div class ="row">
+
+                <div class="col-md-7 col-lg-8 container">
+                  <div class ="col-md-12 projects-wrapper__pull-out-text-container">
+                    <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> Python, The Jupyter Notebook, Skimage library</i>     
+                    <p class="projects-wrapper__pull-out-text-description">
+                      <i>Available soon. Work in progress.</i><br><br>
+                      The Moneycounter project is an application created in python and using The Jupyter Notebook. 
+                      The application downloads a previously taken photo of coins, and then counts them and the sum of their denominations. 
+                      During this project, it was required to properly process photos as well as select and use filters that allow us to extract the properties that interesting to us. 
+                      My choice fell on the Skimage library. The program required the creation of a segmentation and indexation function. 
+                      Progaram additionally counts the percentage of the area where the coins are located in relation to the entire photo and the Feret, Haralick and Blair-Bliss ratios.
+                    </p>
+                 
+                    </p>
+                  </div>
+                  <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
+                      <i class="fas fa-globe-africa fa-3x live-icon live-icon--odd live-icon--inactive" title="Available soon!"></i>
+                      <a class="project-link" href="https://github.com/KonradSzywalski/MoneyCounter" title="Go GitHub!"><i class="fab fa-github fa-3x github-icon github-icon--odd"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-md-5 col-lg-4 projects-wrapper__img-inside-wrapper">
+                  <img class="projects-wrapper__phone-img-project-7 " src="images/money_counter_gallery.png">
+                </div>
+              </div>
+          </div>
+      </div> 
+
+        <!-- PROJECT 8 -->
+
+        <div class= "row">
+
+          <div class="col-12 projects-wrapper__inside-container">
+            <i class="fas fa-eye fa-2x projects-wrapper__inside-app-logo"></i>  
+            <p class="projects-wrapper__inside-text">OBJECTS DETECTION</p>
+            <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-8" id="projects-wrapper__inside-show-button-project-8" ></i>
+            <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-8" id="projects-wrapper__inside-hide-button-project-8" ></i>
+          </div>
+
+          <div class="col-12 projects-wrapper__pull-out-container-project-8 container">
+              <div class ="row" >
+
+                <div class="col-md-7 col-lg-8 order-md-2 container">
+                  <div class ="col-md-12 projects-wrapper__pull-out-text-container">
+                    <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> Python, The Jupyter Notebook, Skimage libraryD</i>  
+                    <p class="projects-wrapper__pull-out-text-description">
+                      This project was divided into two parts: motion detection and object tracking by color. It was made in 
+                      Python and using The Jupyter Notebook. The skimage library turned out to be useful here. The input files here are previously created recordings in mp4 format. 
+                      The end result is a recording with outlined edges of the tracked object or area where motion detection was made.</p>
+                    </p>
+                  </div>
+                  <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
+                    <i class="fas fa-globe-africa fa-3x live-icon live-icon--inactive" title="Available soon!"></i>
+                    <a class="project-link" href="https://github.com/KonradSzywalski/ObjectsDetection" title="Go GitHub!"><i class="fab fa-github fa-3x github-icon github-icon"></i></a>
+                  </div>
+                </div>
+
+                <div class="col-md-5 col-lg-4 order-md-1 projects-wrapper__img-inside-wrapper">
+                  <img class="projects-wrapper__phone-img-project-8" src="images/object_detection_gallery.png">
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- PROJECT 9 -->
 
         <div class= "row">
 
             <div class="col-12 projects-wrapper__inside-container" >
-              <i class="fas fa-dumbbell fa-2x projects-wrapper__inside-app-logo"></i>  
-              <p class="projects-wrapper__inside-text">GYM LANDING PAGE</p>
-              <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-5" id="projects-wrapper__inside-show-button-project-5" ></i>
-              <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-5" id="projects-wrapper__inside-hide-button-project-5" ></i>
+              <i class="fas fa-coins fa-2x projects-wrapper__inside-app-logo"></i>  
+              <p class="projects-wrapper__inside-text">CRYPTO CASH CALC</p>
+              <i class="fas fa-plus-circle fa-2x projects-wrapper__inside-show-button-project-9" id="projects-wrapper__inside-show-button-project-9" ></i>
+              <i class="fas fa-minus-circle fa-2x projects-wrapper__inside-hide-button-project-9" id="projects-wrapper__inside-hide-button-project-9" ></i>
             </div>
 
-            <div class="col-12 projects-wrapper__pull-out-container-project-5 container">
+            <div class="col-12 projects-wrapper__pull-out-container-project-9 container">
                 <div class ="row">
 
                   <div class="col-md-7 col-lg-8 container">
                     <div class ="col-md-12 projects-wrapper__pull-out-text-container">
-                      <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, BEM, Bootstrap, JavaScript, FontAwesome, Adobe Photoshop</i>     
+                      <i><b class="projects-wrapper__pull-out-text-header">Tools:</b> HTML, CSS, SASS, Bootstrap, React.js, FontAwesome, Adobe Photoshop</i>     
                       <p class="projects-wrapper__pull-out-text-description">
-			<i>Available soon. Work in progress.</i><br><br>
-                        This project involves creating a modern gym site. While building this project, I practiced the techniques of creating responsive websites. 
-                        The goal was to gather inspiration from sites like awwwards.com to stay up to date with current trends. 
-                        A lot of weight was also put on improving skills in animations.  
+			                  <i>Available soon. Work in progress.</i><br><br>
+                        The purpose of this project is to take the first steps in the React.js environment. 
+                        The application assumes the creation of a cryptocurrency calculator that retrieves data from an external API and subpage with current 
+                        exchange rates. Everything is supported by the react router and the page layout is adapted for different types of devices. 
+                        One of the goals during preparing this website is also to take inspiration from sites like awwwards.com to stay up 
+                        to date with current graphic design  trends.
+                      </p>
                    
                       </p>
                     </div>
                     <div class ="col-md-12 projects-wrapper__pull-out-icons-container">
-                        <i class="fas fa-globe-africa fa-3x live-icon live-icon--odd live-icon--inactive"></i>
-                        <i class="fab fa-github fa-3x github-icon github-icon--odd github-icon--inactive"></i>
+                        <i class="fas fa-globe-africa fa-3x live-icon live-icon--odd live-icon--inactive" title="Available soon!"></i>
+                        <i class="fab fa-github fa-3x github-icon github-icon--odd github-icon--inactive" title="Available soon!"></i>
                     </div>
                   </div>
 
                   <div class="col-md-5 col-lg-4 projects-wrapper__img-inside-wrapper">
-                    <img class="projects-wrapper__phone-img-project-5 " src="images/work_in_progress_phone.png">
+                    <img class="projects-wrapper__phone-img-project-9 " src="images/work_in_progress_phone.png">
                   </div>
                 </div>
             </div>
@@ -287,7 +455,7 @@
 
     <section class="contact-wrapper">
       <a id="contact-wrapper__anchor"></a>
-      <h1 class="section-header">CONTACT INFORMATIONS</h1>
+      <h1 class="section-header">CONTACT INFORMATION</h1>
       <h2 class="section-header-additional">FEEL FREE TO ASK</h2>
       
       <div class="contact-wrapper__content-container container">   
@@ -306,7 +474,8 @@
             </div>
 
           <div class="col-md-7 contact-wrapper__text-container" data-aos="fade-left"  data-aos-duration="1250"> 
-              Whether you have a question about business matters, preparing a website 
+              I'm currently looking for a job as a Junior Frontend Developer. Don't hesitate to contact me.
+			  Whether you have a question about business matters, preparing a website 
               for you or anything else, I'm ready to answer all of it. 
               I'm always trying to respond within a few days.
           </div>  
@@ -339,6 +508,8 @@
   <script src="js/mobile_navbar.js"></script>
   <!-- pull_out_containers -->
   <script src="js/pull_out_containers.js"></script>
+  <!-- resize_window_fix  -->
+  <script src="js/resize_window_fix.js"></script>
   <!-- Bootstrap -->
   <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

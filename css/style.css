@@ -322,10 +322,6 @@ a.navbar__link:hover {
 }
 
 @media (max-width: 992px) {
-  .scroll-fix {
-    overflow: hidden;
-    opacity: 99%;
-  }
   .navbar {
     -webkit-transition: opacity .35s, visibility .35s, height .32s;
     transition: opacity .35s, visibility .35s, height .32s;
@@ -354,12 +350,6 @@ a.navbar__link:hover {
     width: 70%;
     display: block;
     margin-top: 5px;
-    -webkit-transform: translateY(0px) translateX(0) rotate(0deg);
-            transform: translateY(0px) translateX(0) rotate(0deg);
-    -webkit-transition: .25s;
-    transition: .25s;
-    -webkit-transition-delay: 0.15s;
-            transition-delay: 0.15s;
   }
   .navbar__burger-middle {
     background-color: #ffffff;
@@ -785,18 +775,18 @@ a.navbar__link:hover {
   color: #111111;
 }
 
-.projects-wrapper__inside-show-button-project-1, .projects-wrapper__inside-show-button-project-2, .projects-wrapper__inside-show-button-project-3, .projects-wrapper__inside-show-button-project-4, .projects-wrapper__inside-show-button-project-5, .projects-wrapper__inside-show-button-project-6, .projects-wrapper__inside-show-button-project-7, .projects-wrapper__inside-show-button-project-8, .projects-wrapper__inside-show-button-project-9 {
+.projects-wrapper__inside-show-button-project-1, .projects-wrapper__inside-show-button-project-2, .projects-wrapper__inside-show-button-project-3, .projects-wrapper__inside-show-button-project-4, .projects-wrapper__inside-show-button-project-5 {
   float: right;
   padding-left: 20px;
   padding-top: 14px;
 }
 
-.projects-wrapper__inside-show-button-project-1:hover, .projects-wrapper__inside-show-button-project-2:hover, .projects-wrapper__inside-show-button-project-3:hover, .projects-wrapper__inside-show-button-project-4:hover, .projects-wrapper__inside-show-button-project-5:hover, .projects-wrapper__inside-show-button-project-6:hover, .projects-wrapper__inside-show-button-project-7:hover, .projects-wrapper__inside-show-button-project-8:hover, .projects-wrapper__inside-show-button-project-9:hover {
+.projects-wrapper__inside-show-button-project-1:hover, .projects-wrapper__inside-show-button-project-2:hover, .projects-wrapper__inside-show-button-project-3:hover, .projects-wrapper__inside-show-button-project-4:hover, .projects-wrapper__inside-show-button-project-5:hover {
   color: #ff5e00;
   cursor: pointer;
 }
 
-.projects-wrapper__inside-hide-button-project-1:hover, .projects-wrapper__inside-hide-button-project-2:hover, .projects-wrapper__inside-hide-button-project-3:hover, .projects-wrapper__inside-hide-button-project-4:hover, .projects-wrapper__inside-hide-button-project-5:hover, .projects-wrapper__inside-hide-button-project-6:hover, .projects-wrapper__inside-hide-button-project-7:hover, .projects-wrapper__inside-hide-button-project-8:hover, .projects-wrapper__inside-hide-button-project-9:hover {
+.projects-wrapper__inside-hide-button-project-1:hover, .projects-wrapper__inside-hide-button-project-2:hover, .projects-wrapper__inside-hide-button-project-3:hover, .projects-wrapper__inside-hide-button-project-4:hover, .projects-wrapper__inside-hide-button-project-5:hover {
   color: #ff5e00;
   cursor: pointer;
 }
@@ -809,13 +799,13 @@ a.navbar__link:hover {
   display: block;
 }
 
-.projects-wrapper__inside-hide-button-project-1, .projects-wrapper__inside-hide-button-project-2, .projects-wrapper__inside-hide-button-project-3, .projects-wrapper__inside-hide-button-project-4, .projects-wrapper__inside-hide-button-project-5, .projects-wrapper__inside-hide-button-project-6, .projects-wrapper__inside-hide-button-project-7, .projects-wrapper__inside-hide-button-project-8, .projects-wrapper__inside-hide-button-project-9 {
+.projects-wrapper__inside-hide-button-project-1, .projects-wrapper__inside-hide-button-project-2, .projects-wrapper__inside-hide-button-project-3, .projects-wrapper__inside-hide-button-project-4, .projects-wrapper__inside-hide-button-project-5 {
   float: right;
   padding-left: 20px;
   padding-top: 14px;
 }
 
-.projects-wrapper__pull-out-container-project-1, .projects-wrapper__pull-out-container-project-2, .projects-wrapper__pull-out-container-project-3, .projects-wrapper__pull-out-container-project-4, .projects-wrapper__pull-out-container-project-5, .projects-wrapper__pull-out-container-project-6, .projects-wrapper__pull-out-container-project-7, .projects-wrapper__pull-out-container-project-8, .projects-wrapper__pull-out-container-project-9 {
+.projects-wrapper__pull-out-container-project-1, .projects-wrapper__pull-out-container-project-2, .projects-wrapper__pull-out-container-project-3, .projects-wrapper__pull-out-container-project-4, .projects-wrapper__pull-out-container-project-5 {
   margin-bottom: 15px;
   background-color: #ffffff;
   border-top: 1px solid #111111;
@@ -827,7 +817,7 @@ a.navbar__link:hover {
   overflow: hidden;
 }
 
-.projects-wrapper__pull-out-container--active-project-1, .projects-wrapper__pull-out-container--active-project-2, .projects-wrapper__pull-out-container--active-project-3, .projects-wrapper__pull-out-container--active-project-4, .projects-wrapper__pull-out-container--active-project-5, .projects-wrapper__pull-out-container--active-project-6, .projects-wrapper__pull-out-container--active-project-7, .projects-wrapper__pull-out-container--active-project-8, .projects-wrapper__pull-out-container--active-project-9 {
+.projects-wrapper__pull-out-container--active-project-1, .projects-wrapper__pull-out-container--active-project-2, .projects-wrapper__pull-out-container--active-project-3, .projects-wrapper__pull-out-container--active-project-4, .projects-wrapper__pull-out-container--active-project-5 {
   padding-top: 10px;
   padding-bottom: 15px;
   visibility: visible;
@@ -836,12 +826,12 @@ a.navbar__link:hover {
   max-height: 1500px;
 }
 
-.projects-wrapper__phone-img-project-1, .projects-wrapper__phone-img-project-2, .projects-wrapper__phone-img-project-3, .projects-wrapper__phone-img-project-4, .projects-wrapper__phone-img-project-5, .projects-wrapper__phone-img-project-6, .projects-wrapper__phone-img-project-7, .projects-wrapper__phone-img-project-8, .projects-wrapper__phone-img-project-9 {
+.projects-wrapper__phone-img-project-1, .projects-wrapper__phone-img-project-2, .projects-wrapper__phone-img-project-3, .projects-wrapper__phone-img-project-4, .projects-wrapper__phone-img-project-5 {
   visibility: hidden;
   margin-left: 15%;
 }
 
-.projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5, .projects-wrapper__phone-img--active-project-6, .projects-wrapper__phone-img--active-project-7, .projects-wrapper__phone-img--active-project-8, .projects-wrapper__phone-img--active-project-9 {
+.projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5 {
   width: 226px;
   height: auto;
   visibility: visible;
@@ -887,46 +877,6 @@ a.navbar__link:hover {
   display: none;
 }
 
-#projects-wrapper__inside-show-button-project-6 {
-  display: block;
-}
-
-#projects-wrapper__inside-hide-button-project-6 {
-  display: none;
-}
-
-.projects-wrapper__phone-img-project-6 {
-  margin-left: 19%;
-}
-
-#projects-wrapper__inside-show-button-project-7 {
-  display: block;
-}
-
-#projects-wrapper__inside-hide-button-project-7 {
-  display: none;
-}
-
-#projects-wrapper__inside-show-button-project-8 {
-  display: block;
-}
-
-#projects-wrapper__inside-hide-button-project-8 {
-  display: none;
-}
-
-.projects-wrapper__phone-img-project-8 {
-  margin-left: 19%;
-}
-
-#projects-wrapper__inside-show-button-project-9 {
-  display: block;
-}
-
-#projects-wrapper__inside-hide-button-project-9 {
-  display: none;
-}
-
 @media (max-width: 767px) {
   .projects-wrapper__pull-out-text-container {
     padding-left: 10px !important;
@@ -960,7 +910,7 @@ a.navbar__link:hover {
     margin-left: -53%;
     z-index: 1;
   }
-  .projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5, .projects-wrapper__phone-img--active-project-6, .projects-wrapper__phone-img--active-project-7, .projects-wrapper__phone-img--active-project-8, .projects-wrapper__phone-img--active-project-9 {
+  .projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5 {
     width: 150px;
     margin-top: -10px;
     margin-right: 10%;
@@ -980,20 +930,6 @@ a.navbar__link:hover {
     padding-left: 0px;
     float: left;
   }
-  .projects-wrapper__phone-img--active-project-6 {
-    width: 150px;
-    margin-top: -10px;
-    margin-left: 9%;
-    padding-left: 0px;
-    float: left;
-  }
-  .projects-wrapper__phone-img--active-project-8 {
-    width: 150px;
-    margin-top: -10px;
-    margin-left: 9%;
-    padding-left: 0px;
-    float: left;
-  }
 }
 
 @media (max-width: 549px) {
@@ -1007,37 +943,25 @@ a.navbar__link:hover {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
-  .projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5, .projects-wrapper__phone-img--active-project-6, .projects-wrapper__phone-img--active-project-7, .projects-wrapper__phone-img--active-project-8, .projects-wrapper__phone-img--active-project-9 {
+  .projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5 {
     margin-left: 10%;
   }
-  .projects-wrapper__phone-img--active-project-3 {
+  .projects-wrapper__phone-img--active-project-2 {
     margin-left: 8%;
   }
   .projects-wrapper__phone-img--active-project-5 {
     margin-left: 8%;
   }
-  .projects-wrapper__phone-img--active-project-7 {
-    margin-left: 8%;
-  }
-  .projects-wrapper__phone-img--active-project-9 {
-    margin-left: 8%;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5, .projects-wrapper__phone-img--active-project-6, .projects-wrapper__phone-img--active-project-7, .projects-wrapper__phone-img--active-project-8, .projects-wrapper__phone-img--active-project-9 {
+  .projects-wrapper__phone-img--active-project-1, .projects-wrapper__phone-img--active-project-2, .projects-wrapper__phone-img--active-project-3, .projects-wrapper__phone-img--active-project-4, .projects-wrapper__phone-img--active-project-5 {
     margin-left: 0px;
   }
   .projects-wrapper__phone-img--active-project-2 {
     margin-left: 21%;
   }
   .projects-wrapper__phone-img--active-project-4 {
-    margin-left: 21%;
-  }
-  .projects-wrapper__phone-img--active-project-6 {
-    margin-left: 21%;
-  }
-  .projects-wrapper__phone-img--active-project-8 {
     margin-left: 21%;
   }
 }

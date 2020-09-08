@@ -85,10 +85,14 @@ a.navbar__link:hover{
   }
 
 @media (max-width: 992px){ 
+    .scroll-fix{
+        overflow: hidden;
+        opacity: 99%;
+    }
+
     .navbar{
         transition: opacity .35s, visibility .35s, height .32s;
     }
-
     .navbar__item{
         display:none;   
     }
@@ -117,6 +121,9 @@ a.navbar__link:hover{
         width: 70%;
         display:block;
         margin-top:5px;
+        transform: translateY(0px) translateX(0) rotate(0deg);
+        transition: .25s;
+        transition-delay: 0.15s;
     }
 
     .navbar__burger-middle {
